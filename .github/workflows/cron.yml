@@ -3,7 +3,7 @@ name: Daily Cron Job
 on:
   workflow_dispatch:
   schedule:
-    - cron: '05 10 * * *'  # 每天 UTC 2:00 执行，相当于北京时间 10:00
+    - cron: '15 10 * * *'  # 每天 UTC 2:00 执行，相当于北京时间 10:00
 
 env:
   STEPS: 11066  # 设置步数
